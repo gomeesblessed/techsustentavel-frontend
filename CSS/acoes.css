@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background-color: #eaf5ed;
+    margin: 0;
+}
+
+header {
+    background-color: #0b5d3b;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    width: 180px;
+}
+
+h1 {
+    text-align: center;
+    color: #0b5d3b;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.card h2 {
+    color: green;
+}
+
+.card p {
+    font-size: 14px;
+}
